@@ -1,0 +1,100 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+ li {
+     list-style: none;
+ }
+
+#tamanhosite { 
+    max-width: 1000px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+/*header on*/
+
+h1 { 
+    text-align: center;
+    font-size: 250%;
+}
+
+/*header off*/
+
+/*nav on */
+
+nav { 
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 20px;
+}
+
+a { 
+    color: black;
+}
+
+/*nav on */
+
+/* content on*/
+
+content { 
+
+    margin-bottom: 50px;
+}
+/*section on*/
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: lightgray;
+    max-width: 840px;
+    margin: auto;
+  
+}
+
+
+section#sobre p { 
+    text-align: justify;
+    margin: 30px;
+    text-indent:4em;
+}
+
+section#sobre {
+    padding: 30px;
+}
+
+div#areadados { 
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*section off*/
+
+/* content off*/
+
+/*footer on */
+footer p{ 
+    margin-bottom: 0px;
+    background-color: black;
+    font-weight: 1000;
+    color: white;
+}
+
+/*footer off */
+
+/*breakpoint 800px*/
+
+@media (max-width: 800px) {
+    content p input.valores{ 
+        width: 50px;
+    }
+
+    content p input.botao {
+        margin-top: 10px;
+    }
+
+}

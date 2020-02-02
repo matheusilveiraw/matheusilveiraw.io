@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rolador de dados dinâmico</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="rolador.js"></script>
+    
+</head>
+<body>
+    <div id="tamanhosite">
+        <header> 
+            <h1>Rolador de dados dinâmico</h1>
+        </header>
+        <content>
+
+            <p>Nº de dados: <input class="valores" type="number" name="ndados" id="ndados" min="1" placeholder="Insira o valor">
+            Valor máximo dos dados: <input class="valores" type="number" name="vdados" id="vdados" min="1" placeholder="Insira o valor">
+
+                <input type="button" class="botao" value="Rolar dados!" onclick="rolardados()"></p>
+            <section>
+                <div id="areadados">
+                    <p class="index">Nenhum dado foi rolado!</p>
+                </div>
+
+            </section>
+        </content>
+
+        <footer>
+            <p>By Matheus Silveira
+            </footer>
+    </div>
+</body>
+
+</html>
