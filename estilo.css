@@ -3,28 +3,42 @@
     text-align: center;
 }
 
+@font-face { 
+    font-family: "Osaka";
+    src: url(/fonts/Osaka-SansSerif.woff);
+}
 
+input { 
+    border-radius: 5px;
+    border: 1px solid rgb(230, 226, 226);
+}
+
+.botao { 
+    padding: 12px;
+    border: 1px solid white;
+}
+
+.botao:hover { 
+    border: 1px solid black;
+    transition: all 3s;
+
+}
 
  li {
      list-style: none;
  }
 
-#tamanhosite { 
+#container { 
     max-width: 1000px;
     margin: auto;
     border: 1px solid black;
 }
 
-/*header on*/
-
 h1 { 
     text-align: center;
-    font-size: 250%;
+    font-size: 3em;
+    font-family: "Osaka";
 }
-
-/*header off*/
-
-/*nav on */
 
 nav { 
     text-align: center;
@@ -36,15 +50,9 @@ a {
     color: black;
 }
 
-/*nav on */
-
-/* content on*/
-
 content { 
-
     margin-bottom: 50px;
 }
-/*section on*/
 
 section {
     margin-top: 30px;
@@ -55,11 +63,18 @@ section {
   
 }
 
+.entradas { 
+    margin: 5px;
+}
 
 section#sobre p { 
     text-align: justify;
     margin: 30px;
     text-indent:4em;
+}
+
+label { 
+    margin: 5px;
 }
 
 section#sobre {
@@ -72,11 +87,6 @@ div#areadados {
     flex-wrap: wrap;
 }
 
-/*section off*/
-
-/* content off*/
-
-/*footer on */
 footer p{ 
     margin-bottom: 0px;
     background-color: black;
@@ -84,17 +94,4 @@ footer p{
     color: white;
 }
 
-/*footer off */
 
-/*breakpoint 800px*/
-
-@media (max-width: 800px) {
-    content p input.valores{ 
-        width: 50px;
-    }
-
-    content p input.botao {
-        margin-top: 10px;
-    }
-
-}
