@@ -1,0 +1,97 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@font-face { 
+    font-family: "Osaka";
+    src: url(/fonts/Osaka-SansSerif.woff);
+}
+
+input { 
+    border-radius: 5px;
+    border: 1px solid rgb(230, 226, 226);
+}
+
+.botao { 
+    padding: 12px;
+    border: 1px solid white;
+}
+
+.botao:hover { 
+    border: 1px solid black;
+    transition: all 3s;
+
+}
+
+ li {
+     list-style: none;
+ }
+
+#container { 
+    max-width: 1000px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+h1 { 
+    text-align: center;
+    font-size: 3em;
+    font-family: "Osaka";
+}
+
+nav { 
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 20px;
+}
+
+a { 
+    color: black;
+}
+
+content { 
+    margin-bottom: 50px;
+}
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: lightgray;
+    max-width: 840px;
+    margin: auto;
+  
+}
+
+.entradas { 
+    margin: 5px;
+}
+
+section#sobre p { 
+    text-align: justify;
+    margin: 30px;
+    text-indent:4em;
+}
+
+label { 
+    margin: 5px;
+}
+
+section#sobre {
+    padding: 30px;
+}
+
+div#areadados { 
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer p{ 
+    margin-bottom: 0px;
+    background-color: black;
+    font-weight: 1000;
+    color: white;
+}
+
+
