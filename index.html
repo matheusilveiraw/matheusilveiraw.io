@@ -10,16 +10,19 @@
     
 </head>
 <body>
-    <div id="tamanhosite">
+    <div id="container">
         <header> 
             <h1>Rolador de dados dinâmico</h1>
         </header>
         <content>
+            <form action="">
+                <div class="entradas"><label>Nº de dados: <input class="valores" type="number" name="ndados" id="ndados" min="1" placeholder="Insira o valor"></label></div>
 
-            <p>Nº de dados: <input class="valores" type="number" name="ndados" id="ndados" min="1" placeholder="Insira o valor">
-            Valor máximo dos dados: <input class="valores" type="number" name="vdados" id="vdados" min="1" placeholder="Insira o valor">
+                <div class="entradas"><label for="">Valor máximo dos dados: <input class="valores" type="number" name="vdados" id="vdados" min="1" placeholder="Insira o valor"></label></div>
+                
 
                 <input type="button" class="botao" value="Rolar dados!" onclick="rolardados()"></p>
+            </form>
             <section>
                 <div id="areadados">
                     <p class="index">Nenhum dado foi rolado!</p>
